@@ -1,0 +1,73 @@
+:root[data-theme='e10'] {
+  --header-bg: #c00113;
+  --header-border: linear-gradient(
+    to right,
+    #ff1c22 0%,
+    #fff6bc 50%,
+    #ff1c22 100%
+  );
+  --header-btn-anchor-text: #bc1527;
+  --header-btn-anchor-border: #fff;
+  --header-btn-anchor-bg: #fff0c7;
+  --header-btn-anchor-bg-hover: rgba(255, 240, 199, 0.8);
+  --header-btn-alert-text: #fff;
+  --header-btn-alert-border: #fff;
+  --header-btn-alert-bg: transparent;
+  --header-btn-alert-bg-hover: rgba(255, 255, 255, 0.2);
+  --cancel-btn-line: #fff;
+  --cancel-btn-bg: #ad9051;
+  --game-border: #d52829;
+  --game-bg: linear-gradient(
+    180deg,
+    rgba(255, 216, 154, 1) 0%,
+    rgba(253, 231, 196, 1) 10%,
+    rgba(253, 231, 196, 1) 90%,
+    rgba(255, 216, 154, 1) 100%
+  );
+  --game-table: #d52829;
+  --game-hall-name: #fff;
+  --game-hall-btn-bg: #fde7c4;
+  --game-category: #000;
+  --rule-border: #d52829;
+  --rule-bg-first: #fde7c4;
+  --rule-bg-second: #fbda88;
+  --rule-text: #000;
+  --rule-highlight: #cb0000;
+  --rule-step-border: #d52829;
+  --rule-step-title: #fff;
+  --rule-reward-border: #000;
+  --rule-reward-title: #fff;
+  --rule-reward-text: #000;
+  --rule-reward-highlight: #cb0000;
+  --rule-reward-level-text: #fde7c4;
+  --rule-reward-level-bg: #cb0000;
+  --rule-reward-bg-left: #fde7c4;
+  --rule-reward-bg-right: #fbda88;
+  --rule-cumulative-border: #d52829;
+  --rule-cumulative-bg-title: #fbda88;
+  --rule-cumulative-bg-content: #fde7c4;
+  --recode-title: #000;
+  --record-title-text: #e80000;
+  --record-title-bg: #fff;
+  --record-title-border: #8f0000;
+  --record-table-title: #ffefcb;
+  --record-table-title-bg: #cb0000;
+  --record-table-border: #cb0000;
+  --record-table-bg-odd: transparent;
+  --record-table-bg-even: #cb280030;
+  --record-table-text: #000;
+  --record-btn-null: #fff;
+  --record-btn-active: #fff;
+  --alert-text: #6c361a;
+  --alert-text-highlight: #ff0f47;
+  --alert-btn: #fff;
+  --alert-btn-label: #f75202;
+  --alert-award-game-hint: #fff;
+  --alert-award-game-btn: #fff;
+  --date-text-color: #fff;
+  --date-text-shadow-color:
+    1px 1px 0 #800000, 1px 1px 0 #800000, 1px 1px 0 #800000, 1px 1px 0 #800000;
+  --popup-text-color: #cb0000;
+  --amount-text-color: #78531d;
+  --max-award-text-color: #fe002e;
+}

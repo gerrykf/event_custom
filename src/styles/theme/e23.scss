@@ -1,0 +1,69 @@
+:root[data-theme="e23"] {
+  --header-bg: #012861ff;
+  --header-border: linear-gradient(
+    90deg,
+    rgb(3, 125, 214) 0%,
+    rgb(96, 206, 240) 50%,
+    rgb(3, 125, 214) 100%
+  );
+  --header-btn-anchor-text: #18266fff;
+  --header-btn-anchor-border: #97f9faff;
+  --header-btn-anchor-bg: #dfffffff;
+  --header-btn-anchor-bg-hover: #ece300cc;
+  --header-btn-alert-text: #fff;
+  --header-btn-alert-border: #fff;
+  --header-btn-alert-bg: transparent;
+  --header-btn-alert-bg-hover: rgba(255, 255, 255, 0.2);
+  --cancel-btn-line: #fff;
+  --cancel-btn-bg: #0c77d1ff;
+  --game-border: #60d9f4ff;
+  --game-bg: linear-gradient(
+    90deg,
+    rgb(244, 253, 255) 0%,
+    rgb(255, 255, 255) 10%,
+    rgb(255, 255, 255) 92%,
+    rgb(244, 253, 255) 100%
+  );
+  --game-table: #4685dbff;
+  --game-hall-name: #fff;
+  --game-hall-btn-bg: #ffffffff;
+  --game-category: #000;
+  --game-cta-btn-bg: #000;
+  --game-cta-name: #fff;
+  --rule-border: #236bc6ff;
+  --rule-bg-first: #eaf4feff;
+  --rule-bg-second: #3787f4ff;
+  --rule-text: #000000ff;
+  --rule-highlight: #cb0000;
+  --rule-step-border: #274ebeff;
+  --rule-step-title: #fff;
+  --rule-reward-border: #274ebeff;
+  --rule-reward-title: #fff;
+  --rule-reward-text: #000000ff;
+  --rule-reward-highlight: #cb0000;
+  --rule-reward-level-text: #ffffffff;
+  --rule-reward-level-bg: #274ebeff;
+  --rule-reward-bg-left: #ffffffff;
+  --rule-reward-bg-right: #eaf4feff;
+  --rule-cumulative-border: #274ebeff;
+  --rule-cumulative-bg-title: #3787f4ff;
+  --rule-cumulative-bg-content: #eaf4feff;
+  --recode-title: #000;
+  --record-title-text: #e80000;
+  --record-title-bg: #fff;
+  --record-title-border: #0e85e9ff;
+  --record-table-title: #ffffffff;
+  --record-table-title-bg: #4685dbff;
+  --record-table-border: #4685dbff;
+  --record-table-bg-odd: transparent;
+  --record-table-bg-even: #dae7f8ff;
+  --record-table-text: #000;
+  --record-btn-null: #fff;
+  --record-btn-active: #fff;
+  --alert-text: #000000ff;
+  --alert-text-highlight: #ff0f47;
+  --alert-btn: #fff;
+  --alert-btn-label: #f75202;
+  --alert-award-game-hint: #fff;
+  --alert-award-game-btn: #fff;
+}

@@ -1,0 +1,59 @@
+@use "./normalize";
+@use "./theme/e10.scss";
+@use "./theme/e23.scss";
+
+html,
+body,
+.app {
+  height: 100%;
+  font-family:
+    \5fae\8edf\6b63\9ed1\9ad4,
+    Microsoft JhengHei,
+    \5fae\8f6f\96c5\9ed1,
+    arial,
+    helvetica,
+    sans-serif;
+  user-select: none;
+
+  transition: all 0.1s ease-in-out;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+.app::-webkit-scrollbar {
+  display: none;
+}
+
+html .rule-body *,
+body .rule-body *,
+.app .rule-body * {
+  user-select: text;
+}
+
+.alert-container .alert-body .highlight {
+  font-weight: bolder;
+  color: var(--alert-text-highlight) !important;
+}
+
+svg:not(:root) {
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+}
+
+#nprogress {
+  .bar {
+    background: #ca2821 !important;
+    height: 3px;
+  }
+
+  .peg {
+    box-shadow:
+      0 0 10px #ca2821,
+      0 0 5px #ca2821 !important;
+  }
+
+  .spinner-icon {
+    border-top-color: #ca2821 !important;
+    border-left-color: #ca2821 !important;
+  }
+}
